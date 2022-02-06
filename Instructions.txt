@@ -1,0 +1,15 @@
+1. my directory of pip/pip3 install:
+C:\Users\James\AppData\Roaming\Python\Python37\site-packages
+
+
+2. copy module package to the project Lib\site-packages
+
+
+
+---------------------------------------
+
+Git Release Notes
+
+Python Basic Demo
+
+Python connect to Oracle, MySQL, PostgreSQL.
