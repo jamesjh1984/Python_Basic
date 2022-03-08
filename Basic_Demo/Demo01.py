@@ -1,4 +1,6 @@
 # print函数
+from datetime import datetime
+
 
 # 输出到屏幕
 print(520)
@@ -20,3 +22,12 @@ fp.close()
 
 # 不换行输出
 print('Hello', 'World', 'Python')
+
+
+
+
+
+# 输出当前时间
+now = datetime.now()
+print(now)
+print(now.strftime("%Y-%m-%d %H:%M:%S"))
