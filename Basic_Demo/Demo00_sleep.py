@@ -8,7 +8,7 @@ from datetime import datetime
 
 print(datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
 
-print("sleeping...")
+print("sleeping 5 seconds...")
 sleep(5)
 
 print(datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
