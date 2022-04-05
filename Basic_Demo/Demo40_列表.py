@@ -3,8 +3,8 @@
 
 
 
-list1 = ['hello','world',88,77,66]
-list2 = list(['hello','world',88])
+list1 = ['hello','world',88,77,66] # 创建方式1
+list2 = list(['hello','world',88]) # 创建方式2
 print(id(list1))
 print(type(list1))
 print(list1)

@@ -3,10 +3,10 @@
 
 
 # 创建
-dict1 = {'A':21, 'B':22, 'C':23, 'D':24, 'E':25}
+dict1 = {'A':21, 'B':22, 'C':23, 'D':24, 'E':25} # 创建方式1
 print(dict1, id(dict1), type(dict1))
 
-dict2 = dict(name='A', age=21)
+dict2 = dict(name='A', age=21) # 创建方式2
 print(dict2, id(dict2))
 
 dict3 = {}
