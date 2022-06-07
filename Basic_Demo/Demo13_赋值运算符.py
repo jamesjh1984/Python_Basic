@@ -10,19 +10,19 @@ print(c, id(c))
 
 a = 20
 a += 30
-print(a)
+print('a = 20,a += 30', a)
 
 a -= 10
-print(a)
+print('a -= 10',a)
 
 a *= 2
-print(a)
+print('a *= 2', a)
 
 a /= 3
-print(a)
+print('a /= 3', a)
 
 a //= 2
-print(a)
+print('a //= 2', a)
 
 
 

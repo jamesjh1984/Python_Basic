@@ -1,3 +1,10 @@
+# @Coding: utf-8
+# @Time: 2022/5/12 21:16
+# @Author: James Jin
+# @Project: Python_Basic
+# @File: Demo06_数据类型.py
+
+
 # 数据类型
 
 
@@ -75,32 +82,3 @@ print(str4, type(str4))
 
 
 
-
-
-######## 5. 类型转换 ########
-x1 = 18
-x2 = '18'
-x3 = 98.5
-x4 = '82.6'
-x5 = True
-x6 = 'Hello'
-
-
-print('-------- str() --------')
-print(str(x1), type(str(x1)))
-
-
-print('-------- int() --------')
-print(int(x2), type(int(x2)))
-print(int(x3), type(int(x3))) # 舍掉小数部分
-# print(int(x4), type(int(x4))) # Error, 字符串不能为小数，需要为整数
-print(int(x5), type(int(x5)))
-# print(int(x6), type(int(x6))) # Error, 字符串需要为整数
-
-
-print('-------- float() --------')
-print(float(x4), type(float(x4)))
-print(float(x2), type(float(x2)))
-print(float(x5), type(float(x5)))
-# print(float(x6), type(float(x6))) # Error, 字符串需要为数字
-print(float(x1), type(float(x1)))
